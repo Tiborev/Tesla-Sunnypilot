@@ -15,7 +15,7 @@ Custom Tesla Model 3 project built around sunnypilot/openpilot concepts, with a 
 - Local Manager/Agent test architecture
 
 ### In progress / not completed
-- Final Lovable phone application
+- Final phone application
 - Production integration with real sunnypilot
 - Tesla OEM triple-camera / FPD-Link integration
 - Final compute hardware selection
@@ -24,7 +24,7 @@ Custom Tesla Model 3 project built around sunnypilot/openpilot concepts, with a 
 ## Architecture direction
 
 - **Base:** sunnypilot, with upstream openpilot used as reference where appropriate
-- **Phone UI:** Lovable-built application
+- **Phone UI:** Custom-built application
 - **Manager:** local API/control layer
 - **Agent:** vehicle-side service layer
 - **Cameras:** Tesla OEM triple forward camera assembly, planned FPD-Link III receiver path
