@@ -21,10 +21,16 @@ Custom Tesla Model 3 project built around sunnypilot/openpilot concepts, with a 
 - Final compute hardware selection
 - Full vehicle validation and road testing
 
+## Phone UI
+
+The current phone UI build is stored in [`phone-ui/Comma phone app.zip`](phone-ui/Comma%20phone%20app.zip).
+
+It is the current development build of the phone interface and is **not yet a finished production application**.
+
 ## Architecture direction
 
 - **Base:** sunnypilot, with upstream openpilot used as reference where appropriate
-- **Phone UI:** Custom-built application
+- **Phone UI:** phone application; current development build is in `phone-ui/`
 - **Manager:** local API/control layer
 - **Agent:** vehicle-side service layer
 - **Cameras:** Tesla OEM triple forward camera assembly, planned FPD-Link III receiver path
